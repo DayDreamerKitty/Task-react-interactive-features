@@ -1,7 +1,16 @@
-
-const Home = () => {
+const Home = (props) => {
   return (
     <div className="home">
+      <button
+        className="buttonEdit"
+        onClick={() =>
+          props.setTheme(
+            props.theme === "whitetheme" ? "darktheme" : "whitetheme"
+          )
+        }
+      >
+        Theme!
+      </button>
       <h1>Cookies and Beyond</h1>
       <h3>Where cookie maniacs gather</h3>
       <img
