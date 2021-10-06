@@ -11,7 +11,30 @@ const Home = (props) => {
       >
         Theme!
       </button>
-      <h1>Cookies and Beyond</h1>
+      <div class="words word-1">
+        <span>C</span>
+        <span>O</span>
+        <span>O</span>
+        <span>K</span>
+        <span>I</span>
+        <span>E</span>
+        <span>S</span>
+      </div>
+
+      <div class="words word-2">
+        <span>A</span>
+        <span>N</span>
+        <span>D</span>
+      </div>
+
+      <div class="words word-3">
+        <span>B</span>
+        <span>E</span>
+        <span>Y</span>
+        <span>O</span>
+        <span>N</span>
+        <span>D</span>
+      </div>
       <h3>Where cookie maniacs gather</h3>
       <img
         alt="cookie shop"
